@@ -3,19 +3,22 @@ import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import { Link } from 'react-router'
 import { FaWindowClose } from "react-icons/fa";
+import logo from'../assets/logo.png';
 const Menu = () => {
   const [ismenuopen, setmenuopen] = useState();
   return (
     <div className=' flex  mx-auto py-10 sm:px-6 justify-around items-center  text-black  w-full bg-white shadow-lg '>
-      <Link to="/" className='flex flex-wrap text-5xl uppercase text-purple-700  transition-colors hover:text-amber-600'>
-        SUNJOY
+      <Link to="/" className='flex flex-wrap  text-wrap text-3xl uppercase text-purple-700  transition-colors hover:text-amber-600'>
+        Eng Abdullahi
       </Link>
       <div className=' hidden sm:flex '>
         <ul className='flex gap-4 text-2xl'>
+            < Link to="/" className='px-3 py-1.5 hover:bg-purple-500 hover:text-white transition-all cursor-pointer '>Home</ Link>
           < Link to="/Blog" className='px-3 py-1.5 hover:bg-purple-500 hover:text-white transition-all cursor-pointer '>Blog</ Link>
           < Link to="/About" className='px-3 py-1.5 hover:bg-purple-500 hover:text-white  '>About</ Link>      
           <Link to="/contacts" className='px-3 py-1.5 hover:bg-purple-500 hover:text-white '> Contact</Link>
           <Link to="/Service" className='px-3 py-1.5 hover:bg-purple-500 hover:text-white '> Service</Link>
+          <Link to="https://github.com/Abdullahi1440" className='px-3 py-1.5 hover:bg-purple-500 hover:text-white '> Github</Link>
           
 
 
