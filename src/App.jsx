@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+
 // import Posts from './Component/Posts';
 import { Route, Routes } from 'react-router';
 
@@ -17,16 +17,6 @@ import Footer from './Component/Footer';
 
 function App() {
   //usestate
-  const [data ,setdatas]=useState("Usestate In React js ");
-  const [posts , setpost]=useState([ ] )
- useEffect(() => {
-   const getposts=async()=>{
-    const {data}=await axios.get("https://jsonplaceholder.typicode.com/posts");
-    setpost(data);
-   }
-   getposts();
- }, [])
- 
   return (
 
     //fragment
