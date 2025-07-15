@@ -9,7 +9,7 @@ const Menu = () => {
   return (
     <div className=' flex  mx-auto py-10 sm:px-6 justify-around items-center  text-black  w-full bg-white shadow-lg '>
       <Link to="/" className='flex flex-wrap  text-wrap text-3xl uppercase text-purple-700  transition-colors hover:text-amber-600'>
-        Eng Abdullahi
+        <img src={logo} alt="" className='w-20 h-20' />
       </Link>
       <div className=' hidden sm:flex '>
         <ul className='flex gap-4 text-2xl'>
@@ -48,6 +48,7 @@ const Menu = () => {
           < Link to="/Service"onClick={()=>setmenuopen(false)} className='  px-3 py-2 hover:text-purple-800   text-sm '>Service</ Link>  
 
           <Link to="/contacts" onClick={()=>setmenuopen(false)} className='  px-3 py-2 hover:text-purple-800   text-sm'> contacts</Link>
+          <Link to="https://github.com/Abdullahi1440" onClick={()=>setmenuopen(false)} className='  px-3 py-2 hover:text-purple-800   text-sm'> Github </Link>
              
               </ul>
             </div>
