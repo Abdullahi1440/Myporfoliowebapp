@@ -42,6 +42,7 @@ const Menu = () => {
           ismenuopen && <div className=' absolute xl:hidden w-full top-25 mt-2 bg-white shadow-lg font-semibold   '>
             <div className='flex'>
               <ul className='flex flex-col gap-2  capitalize'>
+                 < Link to="/"  onClick={()=>setmenuopen(false)} className='  px-3 py-2 hover:text-purple-800  '>Home</ Link>
                 < Link to="/Blog"  onClick={()=>setmenuopen(false)} className='  px-3 py-2 hover:text-purple-800  '>Blog</ Link>
           < Link to="/About"onClick={()=>setmenuopen(false)} className='  px-3 py-2 hover:text-purple-800   text-sm '>About</ Link>  
               
