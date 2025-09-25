@@ -21,7 +21,7 @@ const Skills = () => {
             <div className="w-full   lg:w-1/4 xl:w-1/4 p-4 overflow-hidden ">
               <h4 className='text-center font-semibold capitalize text-3xl mb-2'><span className='border-b-2 border-amber-500'>Front End </span></h4>
             <div className="flex-row ">
-              <div className="rounded-lg shadow-lg items-center bg-white shadow-amber-500 py-3 px-3  ">
+              <div className="rounded-lg shadow-lg items-center bg-white dark:bg-gray-900  shadow-amber-500 py-3 px-3  ">
                 <div className=' flex  mb-4 w-[90%] py-3 px-3 items-center  rounded-xl border border-amber-400  hover:text-amber-400'><FaHtml5 className='text-center h-14 w-14' /> <span className='inline text-xl uppercase  pl-10'> HTML </span> </div>
                 <div className=' flex mb-4  w-[90%] py-3 px-3 items-center  rounded-xl border border-amber-400  hover:text-amber-400'><FaReact className='text-center h-14 w-14' /> <span className='inline text-xl uppercase pl-10'> React js </span> </div>
                 <div className=' flex mb-4  w-[90%] py-3 px-3 items-center  rounded-xl border border-amber-400  hover:text-amber-400'><FaJs className='text-center h-14 w-14' /> <span className='inline text-xl uppercase pl-10'> React js </span> </div>
@@ -37,7 +37,7 @@ const Skills = () => {
             <div className="w-full  lg:w-1/4 xl:w-1/4 p-4 overflow-hidden ">
               <h4 className='text-center font-semibold capitalize text-3xl mb-2'><span className='border-b-2 border-amber-500'>Back end  </span></h4>
             <div className="flex-row ">
-              <div className="rounded-lg shadow-lg items-center bg-white shadow-amber-500 py-3 px-3  ">
+              <div className="rounded-lg shadow-lg items-center bg-white dark:bg-gray-900  shadow-amber-500 py-3 px-3  ">
                 <div className=' flex mb-4 w-[90%] py-3 px-3 items-center  rounded-xl border border-amber-400  hover:text-amber-400'><FaNodeJs className='text-center h-14 w-14' /> <span className='inline text-xl uppercase pl-10'> Node js </span> </div>
                 <div className=' flex mb-4  w-[90%] py-3 px-3 items-center  rounded-xl border border-amber-400  hover:text-amber-400'><DiMongodb className='text-center h-14 w-14' /> <span className='inline text-xl uppercase pl-10'> Mongo DB </span> </div>
                 <div className=' flex mb-4  w-[90%] py-3 px-3 items-center  rounded-xl border border-amber-400  hover:text-amber-400'><DiFirebase className='text-center h-14 w-14' /> <span className='inline text-xl uppercase pl-10'> Fire Base </span> </div>
@@ -53,7 +53,7 @@ const Skills = () => {
             <div className="w-full  lg:w-1/4 xl:w-1/4 p-4 overflow-hidden ">
               <h4 className='text-center font-semibold capitalize text-2xl mb-2'><span className='border-b-2 border-amber-500 uppercase '>Additional Tech   </span></h4>
             <div className="flex-row ">
-              <div className="rounded-lg shadow-lg items-center bg-white shadow-amber-500 py-3 px-3  ">
+              <div className="rounded-lg shadow-lg items-center bg-whitedark:bg-gray-900  shadow-amber-500 py-3 px-3  ">
                 <div className=' flex mb-4 w-[90%] py-3 px-3 items-center  rounded-xl border border-amber-400  hover:text-amber-400'><FaGithub className='text-center h-14 w-14' /> <span className='inline text-xl uppercase pl-10'> GITHUB </span> </div>
                 <div className=' flex mb-4  w-[90%] py-3 px-3 items-center  rounded-xl border border-amber-400  hover:text-amber-400'><FaAws className='text-center h-14 w-14' /> <span className='inline text-xl uppercase pl-10'> AWS CLOUD </span> </div>
                 <div className=' flex mb-4  w-[90%] py-3 px-3 items-center  rounded-xl border border-amber-400  hover:text-amber-400'><DiWordpress className='text-center h-14 w-14' /> <span className='inline text-xl uppercase pl-10'> WORDPRESS </span> </div>

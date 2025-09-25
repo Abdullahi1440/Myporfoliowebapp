@@ -14,15 +14,16 @@ import About from './Component/Pages/About';
 import Blog from './Component/Pages/Blog';
 import Service from './Component/Pages/Service';
 import Footer from './Component/Footer';
-
 function App() {
   //usestate
+
   return (
 
     //fragment
     <>
+   
     <Menu/>
-    <div className=' '>
+    <div className="dark:bg-gray-900  transition-all duration-500 ease-in-out">
       <Routes>
         <Route path='/' element={<Home/>}/>
         
@@ -39,6 +40,7 @@ function App() {
     </div>
    
     <Footer/>
+
     </>
   )
 } 

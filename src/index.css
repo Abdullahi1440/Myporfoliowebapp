@@ -2,3 +2,14 @@
 body{
      font-family: "Poppins", sans-serif;
 }
+@custom-variant dark (&:where(.dark, .dark *));
+@layer components{
+     .darks{
+          @apply bg-black ;
+     }
+}
+@layer base {
+  body {
+    @apply dark:bg-gray-900 dark:text-white bg-white text-black transition-all duration-500;
+  }
+}

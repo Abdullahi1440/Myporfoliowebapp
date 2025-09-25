@@ -4,45 +4,10 @@ const Contacts = () => {
   return (
 
     <>
-                {/* <h4 className=' mx-auto text-center items-center font-bold text-3xl uppercase mt-5 mb-5  tracking-wide '><span className='border-b border-purple-400 uppercase '>contact us </span></h4>
-      <div className='bg-purple-500 my-5 mx-5 rounded-2xl py-5 flex-wrap text-wrap sm:text-sm'>
-        <div className='flex flex-wrap  justify-center items-center w-95 mx-auto  rounded-2xl scroll-auto py-2 sm:py-3 '>
-
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10  rounded-full my-2  text-white sm:text-lg  hover:bg-amber-400  " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-          </svg>
-          <span className='text-center mx-5 text-xl sm:text-sm  font-semibold uppercase  text-white  '>guure1440@gmail.com</span>
-
-
-        </div> 
-        <div className='flex flex-wrap  justify-center items-center w-full mx-auto  rounded-2xl scroll-auto   '>
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10  rounded-full text-white hover:bg-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M16 8l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
-          </svg>
-          <span className='text-center mx-5 text-xl font-bold uppercase text-white '>+2550748666647</span>
-        </div>
-
-
-      </div> 
-   
-      
-        <div className=' justify-center items-center   w-[90%] shadow-lg py-5 px-5 scroll-auto bg-purple-500 mx-10 rounded-2xl'>
-            <span className='text-center text-2xl font-light text-white capitalize '>Please contact us if you have any query </span>
-                    <form className='shadow-lg bg-white rounded-2xl py-2 px-2 w-full   '>
-            
-                           <label htmlFor="" className='block text-xl capitalize font-light px-2'>first name </label>
-          <input type="text" className='border border-purple-500 text-gray-600 w-1/2 rounded-xl xl:hidden sm:w-full' id='' />
-   
-             
-          </form>
-            */}
-   
-
-        {/* </div> */}
-<h4 className="text-wrap text-center items-center  justify-center  uppercase mx-auto mt-10 mb-3 text-3xl font-bold tracking-wide">
+<h4 className="text-wrap text-center items-center  justify-center  uppercase mx-auto mt-10 mb-3 text-3xl font-bold tracking-wide dark:text-white">
   <span className='border-b-2 border-purple-500 mb-2'>  Contact us</span>
  </h4>
-<div className="flex   justify-center items-center  mx-auto max-w-full scroll-auto  ">
+<div className="flex   justify-center items-center  mx-auto max-w-full scroll-auto dark:text-white  ">
                   <div className="flex flex-col flex-wrap text-wrap ">
         <div className="grid grid-cols-1 xl:grid-cols-2 md:grid-cols-2 gap-6 w-full">
           <div className='rounded-2xl shadow-lg py-5 px-5  '>

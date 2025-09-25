@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className=' bg-white flex justify-center  text-2xl text-center items-center mx-auto w-full '>
+    <div className=' bg-white dark:bg-gray-900 dark:text-white flex justify-center  text-2xl text-center items-center mx-auto w-full '>
    
       <div className="  text-center items-center  mt-5 mb-5 tracking-tight  "> 
         <span className="border-b-2 border-purple-500 font-bold   capitalize text-5xl">About Us</span> 

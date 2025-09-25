@@ -3,9 +3,9 @@
   // import logo from ".../assets/logo.png";
 const Blog = () => {
   return (
-    <div className='flex flex-col justify-center  items-center mx-auto mt-2  py-5 px-5 w-full container '>
+    <div className='flex flex-col justify-center  items-center mx-auto mt-2  py-5 px-5 w-full container  dark:text-white'>
       <div className='block mb-5 '>
-      <h2 className='text-center items-center font-bold text-5xl text-purple-400'>My Journey sofware developer </h2>
+      <h2 className='text-center items-center font-bold text-5xl text-purple-400 dark:text-white'>My Journey sofware developer </h2>
 
       </div>
 
